@@ -1,6 +1,8 @@
  body
 {
     background-color: #232323;
+    padding: 0;
+    margin: 0;
 }
 .square
 {
@@ -21,4 +23,10 @@ h1{
 }
 span{
     color: white;
+}
+#menudiv
+{
+    background-color: wheat;
+    text-align: center;
+    padding: 20px;
 }
