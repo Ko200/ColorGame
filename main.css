@@ -40,6 +40,8 @@
 }
 h1{
     color: white;
+
+    margin: 0;
 }
 span{
     color: white;
@@ -65,7 +67,7 @@ span{
 .links
 {
     text-decoration: none;
-    padding: 6px 4px 7px 4px;
+    padding: 10px 4px 11px 4px;
     font-size: 1.1rem;
     color: black;
     background: white;
