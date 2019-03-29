@@ -10,27 +10,25 @@
 {
     width: 30%;
     background-color: green;
-    float: left;
     padding-bottom: 30%;
-    margin: 1.66%;
     border-radius: 10%;
 }
 .squaresEasy
 {
     width: 30%;
     background-color: green;
-    float: left;
+  
     padding-bottom: 30%;
-    margin: 1.66%;
+
     border-radius: 10%;
 }
 .squaresHard
 {
     width: 30%;
     background-color: green;
-    float: left;
+   
     padding-bottom: 30%;
-    margin: 1.66%;
+  
     border-radius: 10%;
 }
 .container
@@ -79,4 +77,17 @@ span{
     background-color:#232323;
     color: white;
     text-decoration: none;
+}
+.m-footer-t
+{
+    margin-top: 400px;
+}
+.footer-font
+{
+    font-weight: 100;
+    color:darkgray;
+}
+hr
+{
+    color: white;
 }
