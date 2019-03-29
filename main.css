@@ -15,6 +15,24 @@
     margin: 1.66%;
     border-radius: 10%;
 }
+.squaresEasy
+{
+    width: 30%;
+    background-color: green;
+    float: left;
+    padding-bottom: 30%;
+    margin: 1.66%;
+    border-radius: 10%;
+}
+.squaresHard
+{
+    width: 30%;
+    background-color: green;
+    float: left;
+    padding-bottom: 30%;
+    margin: 1.66%;
+    border-radius: 10%;
+}
 .container
 {
     max-width:600px;
@@ -45,10 +63,7 @@ span{
     
 }
 
-.allign
-{
-    margin-left: 30%;
-}
+
 .links
 {
     text-decoration: none;
@@ -60,4 +75,9 @@ span{
     background: white;
     border: none;
     margin: none;
+}
+.links:hover
+{
+    background-color:#232323;
+    color: white;
 }
