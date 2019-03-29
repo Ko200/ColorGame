@@ -26,7 +26,26 @@ span{
 }
 #menudiv
 {
-    background-color: wheat;
-    text-align: center;
-    padding: 20px;
+    background-color: white;
+
+    padding: 5px;
+}
+.newcolorbtn
+{
+    padding: 5px;
+    font-size: .1.1rem;
+    color: black;
+    margin-left: 20px;
+    width: 140px;
+    background: white;
+    border: none;
+    color: white;
+}
+.newcolorbtn:hover
+{
+    background: #232323;
+}
+.allign
+{
+    margin-left: 30%;
 }
