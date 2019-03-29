@@ -48,15 +48,13 @@ span{
 {
     background-color: white;
 
-    padding: 5px;
+
 }
 .newcolorbtn
 {
-    padding: 5px;
+ 
     font-size: 1.1rem;
     color: black;
-    margin-left: 20px;
-    width: 140px;
     background: white;
     border: none;
     margin: none;
@@ -67,11 +65,9 @@ span{
 .links
 {
     text-decoration: none;
-    padding: 5px;
+    padding: 6px 4px 7px 4px;
     font-size: 1.1rem;
     color: black;
-    margin-left: 20px;
-    width: 140px;
     background: white;
     border: none;
     margin: none;
@@ -80,4 +76,5 @@ span{
 {
     background-color:#232323;
     color: white;
+    text-decoration: none;
 }
