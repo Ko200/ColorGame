@@ -65,7 +65,7 @@ span{
 .links
 {
     text-decoration: none;
-    padding: 10px 4px 10px 4px;
+    padding: 10px 6px 11px 6px;
     font-size: 1.1rem;
     color: black;
     background: white;
@@ -87,7 +87,4 @@ span{
     font-weight: 100;
     color:darkgray;
 }
-hr
-{
-    color: white;
-}
+
