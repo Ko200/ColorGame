@@ -12,24 +12,23 @@
     background-color: green;
     padding-bottom: 30%;
     border-radius: 10%;
+    transition: background .6s;
 }
 .squaresEasy
 {
     width: 30%;
     background-color: green;
-  
     padding-bottom: 30%;
-
     border-radius: 10%;
+    transition: background .6s;
 }
 .squaresHard
 {
     width: 30%;
     background-color: green;
-   
     padding-bottom: 30%;
-  
     border-radius: 10%;
+    transition: background .6s;
 }
 .container
 {
@@ -71,12 +70,14 @@ span{
     background: white;
     border: none;
     margin: none;
+    height: 100%;
 }
 .links:hover
 {
     background-color:#232323;
     color: white;
     text-decoration: none;
+    transition: 0.3 s;
 }
 .m-footer-t
 {
