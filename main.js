@@ -16,13 +16,16 @@ for(var i=0;i<squares.length;i++)
 {
     squares[i].style.backgroundColor=colors[i];
     squares[i].addEventListener("click",function()
-    {   
+    {  
         var clickedColor= this.style.backgroundColor;
         if(clickedColor === pickedColor)
         {  
-            messageDislay.innerHTML="Correct!";  
+            messageDislay.innerHTML="Correct!"; 
+            newGame.textContent="Play Again ?"; 
             changColor(clickedColor);
             h1.style.backgroundColor=clickedColor;
+           
+
             
         }
         else
