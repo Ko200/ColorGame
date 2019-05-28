@@ -10,7 +10,7 @@ var pickedColorHard =randomColorHard();
 var colorDisplay= document.getElementById("colorDisplay");
 var messageDislay = document.getElementById("messageDisplay");
 var h1 = document.querySelector("h1");
-var newGame = document.querySelector("#newgame");
+var newGame = document.getElementById("newgame");
 colorDisplay.innerHTML=pickedColor;
 for(var i=0;i<squares.length;i++)
 {
@@ -133,5 +133,5 @@ function randomArray()
     var green = Math.floor(Math.random() * 256);
     //select blue
     var blue = Math.floor(Math.random() * 256);
-    return "rgb(" + red + ", " + green + ", " + blue + ")";
+    return "rgb(" + red + " , " + green + " , " + blue + ")";
 }
