@@ -133,5 +133,5 @@ function randomArray()
     var green = Math.floor(Math.random() * 256);
     //select blue
     var blue = Math.floor(Math.random() * 256);
-    return "rgb(" + red + ", " + green + ", " + blue + ")";
+    return " rgb(" + red + " , " + green + " , " + blue + ") ";
 }
