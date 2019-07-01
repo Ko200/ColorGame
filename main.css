@@ -21,6 +21,8 @@
     padding-bottom: 30%;
     border-radius: 10%;
     transition: background .6s;
+    -webkit-transition: background .6s;
+    -moz-transition: background .6s;
 }
 .squaresHard
 {
