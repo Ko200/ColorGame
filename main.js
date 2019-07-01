@@ -10,23 +10,18 @@ var pickedColorHard =randomColorHard();
 var colorDisplay= document.getElementById("colorDisplay");
 var messageDislay = document.getElementById("messageDisplay");
 var h1 = document.querySelector("h1");
-var newGame = document.getElementById("newgame");
 colorDisplay.innerHTML=pickedColor;
 for(var i=0;i<squares.length;i++)
 {
     squares[i].style.backgroundColor=colors[i];
     squares[i].addEventListener("click",function()
-    {  
+    {
         var clickedColor= this.style.backgroundColor;
         if(clickedColor === pickedColor)
-        {  
-            messageDislay.innerHTML="Correct!"; 
-            newGame.textContent="Play Again ?"; 
+        {
+            messageDislay.innerHTML="Correct!";  
             changColor(clickedColor);
             h1.style.backgroundColor=clickedColor;
-           
-
-            
         }
         else
         {
@@ -133,5 +128,5 @@ function randomArray()
     var green = Math.floor(Math.random() * 256);
     //select blue
     var blue = Math.floor(Math.random() * 256);
-    return " rgb(" + red + " , " + green + " , " + blue + ") ";
+    return "rgb(" + red + ", " + green + ", " + blue + ")";
 }
